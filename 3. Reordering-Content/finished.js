@@ -1,7 +1,6 @@
 const shuffleBtn = document.getElementById('shuffleBtn');
-const items = [...document.querySelectorAll('.item')];
+const items = [...document.querySelectorAll('.grid-item')];
 
-console.log(items);
 shuffleBtn.addEventListener('click', () => {
     items.forEach((item) => {
         const random = Math.floor(Math.random() * 4);
