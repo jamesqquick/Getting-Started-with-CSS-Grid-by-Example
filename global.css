@@ -19,3 +19,29 @@ body {
 .text-center {
     text-align: center;
 }
+
+.blue {
+    background-color: royalblue;
+}
+.orange {
+    background-color: peru;
+}
+.red {
+    background-color: palevioletred;
+}
+
+.green {
+    background-color: seagreen;
+}
+
+.grid-item {
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}

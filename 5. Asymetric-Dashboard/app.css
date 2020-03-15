@@ -32,4 +32,8 @@
     .dashboard {
         grid-template-columns: 1fr;
     }
+
+    .dashboard > * {
+        grid-column: span 1;
+    }
 }

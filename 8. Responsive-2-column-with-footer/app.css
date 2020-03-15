@@ -3,12 +3,6 @@
     grid-gap: 20px;
 }
 
-.grid-container > * {
-    box-shadow: 1px 1px 4px #ccc;
-    border: 1px solid #ccc;
-    padding: 20px;
-}
-
 @media (min-width: 786px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);

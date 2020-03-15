@@ -8,12 +8,6 @@
         'footer';
 }
 
-.grid-container > * {
-    box-shadow: 1px 1px 4px #ccc;
-    border: 1px solid #ccc;
-    padding: 20px;
-}
-
 .header {
     grid-area: header;
 }

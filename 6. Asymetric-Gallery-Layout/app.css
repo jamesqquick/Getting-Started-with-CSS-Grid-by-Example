@@ -52,4 +52,18 @@
         grid-row: span 1;
         grid-column: span 2;
     }
+
+    .overlay {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container > * {
+        grid-column: 1 / span 1;
+    }
 }
