@@ -1,0 +1,29 @@
+.nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav__items {
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.nav__brand {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 786px) {
+    .nav {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

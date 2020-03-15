@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    /* background-image: linear-gradient(to bottom right, #eee, #bbb); */
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.text-center {
+    text-align: center;
+}

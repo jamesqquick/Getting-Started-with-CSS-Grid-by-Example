@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    height: 40vh;
+    width: 60vw;
+    margin: 0 auto;
+    box-shadow: 1px 1px 4px #ccc;
+    border: 1px solid #ccc;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 40px;
+}

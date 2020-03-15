@@ -1,0 +1,25 @@
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.row__image {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.row__details {
+    padding: 20px;
+}
+
+@media (max-width: 786px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .row__image {
+        grid-row: -1;
+    }
+}

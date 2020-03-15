@@ -1,0 +1,35 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+
+.item {
+    border: 1px solid;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #ccc;
+    border: 1px solid #ccc;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.item:hover {
+    box-shadow: 4px 4px 4px #ccc;
+    cursor: pointer;
+}
+
+.main {
+    grid-column: span 3;
+}
+
+.secondary {
+    grid-column: span 2;
+}
+
+@media (max-width: 786px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+}

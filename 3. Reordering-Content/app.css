@@ -1,0 +1,50 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.item {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #ccc;
+    border: 1px solid #ccc;
+    padding: 40px;
+    color: white;
+}
+
+.item1 {
+    background-color: seagreen;
+}
+
+.item2 {
+    background-color: royalblue;
+}
+.item3 {
+    background-color: peru;
+}
+.item4 {
+    background-color: palevioletred;
+}
+
+button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media (max-width: 786px) {
+    .item1 {
+        order: 3;
+    }
+    .item2 {
+        order: 4;
+    }
+    .item3 {
+        order: 1;
+    }
+    .item4 {
+        order: 2;
+    }
+}

@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        'header'
+        'sidebar'
+        'main'
+        'footer';
+}
+
+.grid-container > * {
+    box-shadow: 1px 1px 4px #ccc;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+@media (min-width: 786px) {
+    .grid-container {
+        grid-template-areas:
+            'header header header'
+            'sidebar main main'
+            'footer footer footer';
+    }
+}
