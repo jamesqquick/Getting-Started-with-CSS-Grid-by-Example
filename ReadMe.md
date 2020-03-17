@@ -4,42 +4,33 @@ This project contains different examples of using CSS Grid. Hopefully, you will 
 
 For each example, there is a set of starter files and finished files. Open the finished files to see what you need to build. Then, open up the starter files to see if you can complete the example on your own.
 
-## Responsive 3 Column Grid
+1. Responsive 3 Column Grid
+![Example 1](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/1.png)
 
-![Example 1](./media/1.png)
+2. Centered Content
+![Example 2](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/2.png)
 
-## Centered Content
+3. Reordered Content
+![Example 3](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/3.png)
 
-![Example 2](./media/2.png)
+4. Responsive Navbar
+![Example 4](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/4.png)
 
-## Reordered Content
+5. Asymetric Dashboard
+![Example 5](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/5.png)
 
-![Example 3](./media/3.png)
+6. Responsive Card Gallery
+![Example 6](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/7.png)
 
-## Responsive Navbar
+7. Asymetric Gallery Layout
 
-![Example 4](./media/6.png)
+![Example 7](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/6.png)
 
-## Asymetric Dashboard
+8. Responsive 2 Column with Footer
+![Example 8](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/8.png)
 
-![Example 5](./media/4.png)
+9. Responsive 2 Column Grid with Footer (Grid Areas)
+![Example 9](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/8.png)
 
-## Responsive Card Gallery
-
-![Example 6](./media/7.png)
-
-## Asymetric Card Layout
-
-![Example 7](./media/5.png)
-
-## Responsive 2 Column with Footer
-
-![Example 8](./media/8.png)
-
-## Responsive 2 Column Grid with Footer (Grid Areas)
-
-![Example 9](./media/9.png)
-
-## Checkerboard Layout
-
-![Example 10](./media/10.png)
+10. Checkerboard Layout
+![Example 10](https://github.com/jamesqquick/Getting-Started-with-CSS-Grid-by-Example/raw/master/media/10.png)
