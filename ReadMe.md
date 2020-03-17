@@ -24,11 +24,11 @@ For each example, there is a set of starter files and finished files. Open the f
 
 ![Example 5](./media/4.png)
 
-## Asymetric Card Layout
+## Responsive Card Gallery
 
 ![Example 6](./media/7.png)
 
-## Responsive Card Gallery
+## Asymetric Card Layout
 
 ![Example 7](./media/5.png)
 
